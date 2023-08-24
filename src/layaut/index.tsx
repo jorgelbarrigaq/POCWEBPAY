@@ -1,6 +1,8 @@
 import Header from "../components/header"
 import imagen1 from '../assets/img/1.png'
 
+
+
 export interface LayoutProps { children:any}
 
 const Layout: React.FC<LayoutProps> = props => {
