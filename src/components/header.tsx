@@ -6,8 +6,8 @@ const Header= () => {
     return (
         <>
             <div className="container header-logos">
-                <img className="logo-rappi" src={logorappi} alt=""></img>
-                <img className="logo-webpay" src={logowebpay} alt="" ></img>
+                <img className="logo-rappi" src={logorappi} alt="" style={{width:'111px',height:'34px'}}></img>
+                <img className="logo-webpay" src={logowebpay} alt=""  style={{width:'130px',height:'34px'}}></img>
             </div>
         </>
     )

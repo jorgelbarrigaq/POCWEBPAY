@@ -1,5 +1,5 @@
 import Header from "../components/header"
-import imagen1 from '../assets/img/1.png'
+import imagen1 from '../assets/img/1.jpeg'
 
 
 
@@ -14,6 +14,7 @@ const Layout: React.FC<LayoutProps> = props => {
             <div className="container px-4 px-lg-5 my-5">
                 <div className="row gx-4 gx-lg-5 align-items-center">
                     <div className="col-md-7 image-left">
+                        <div className="circle-purple"></div>
                         <img className="card-img-top mb-5 mb-md-0" src={imagen1} alt="..." />
                     </div>
                     <div className="col-md-5">
